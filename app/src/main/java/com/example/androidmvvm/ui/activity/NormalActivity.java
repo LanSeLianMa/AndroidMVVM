@@ -13,6 +13,9 @@ import android.widget.TextView;
 
 import com.example.androidmvvm.databinding.ActivityNormalBinding;
 
+/**
+ * 不使用 MVVM，传统写法
+ */
 public class NormalActivity extends AppCompatActivity {
 
     private ActivityNormalBinding binding;
