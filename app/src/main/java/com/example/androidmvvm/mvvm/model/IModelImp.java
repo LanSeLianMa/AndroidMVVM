@@ -6,6 +6,9 @@ import android.os.Handler;
 import com.example.androidmvvm.bean.UserBean;
 import com.example.androidmvvm.mvvm.viewmodel.IViewModel;
 
+/**
+ * 数据模型逻辑 具体实现
+ */
 public class IModelImp implements IModel {
 
     private IViewModel viewModel;

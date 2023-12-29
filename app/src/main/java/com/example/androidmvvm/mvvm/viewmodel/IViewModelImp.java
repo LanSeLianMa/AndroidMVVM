@@ -3,6 +3,9 @@ package com.example.androidmvvm.mvvm.viewmodel;
 import com.example.androidmvvm.mvvm.model.IModel;
 import com.example.androidmvvm.mvvm.view.IView;
 
+/**
+ * 业务逻辑 具体实现
+ */
 public class IViewModelImp implements IViewModel {
 
     private IView view;

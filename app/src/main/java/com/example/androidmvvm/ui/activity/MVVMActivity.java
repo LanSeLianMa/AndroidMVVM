@@ -21,6 +21,9 @@ import com.example.androidmvvm.mvvm.view.IView;
 import com.example.androidmvvm.mvvm.viewmodel.IViewModel;
 import com.example.androidmvvm.mvvm.viewmodel.IViewModelImp;
 
+/**
+ * 视图逻辑 具体实现
+ */
 public class MVVMActivity extends AppCompatActivity implements IView {
 
     private ActivityMvvmBinding binding;

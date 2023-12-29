@@ -4,6 +4,9 @@ import com.example.androidmvvm.base.IBaseModel;
 import com.example.androidmvvm.bean.UserBean;
 import com.example.androidmvvm.mvvm.viewmodel.IViewModel;
 
+/**
+ * 数据模型接口 负责数据逻辑
+ */
 public interface IModel extends IBaseModel {
 
     void setViewModel(IViewModel viewModel, UserBean userBean); // 持有 ViewModel

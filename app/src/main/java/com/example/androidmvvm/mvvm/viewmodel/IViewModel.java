@@ -4,6 +4,9 @@ import com.example.androidmvvm.base.IBaseViewModel;
 import com.example.androidmvvm.mvvm.model.IModel;
 import com.example.androidmvvm.mvvm.view.IView;
 
+/**
+ * 控制器接口 负责业务逻辑
+ */
 public interface IViewModel extends IBaseViewModel {
 
     void setView(IView view); // 持有 View

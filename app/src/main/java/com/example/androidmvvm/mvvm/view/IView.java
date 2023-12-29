@@ -3,6 +3,9 @@ package com.example.androidmvvm.mvvm.view;
 
 import com.example.androidmvvm.base.IBaseView;
 
+/**
+ * 视图接口 负责视图逻辑
+ */
 public interface IView extends IBaseView {
 
     /**
